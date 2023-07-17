@@ -4,3 +4,76 @@
   box-sizing: border-box;
 }
 
+.debug{
+  background-color: brown;
+  border: solid 1px black;
+}
+
+/* qui iniziano gli elementi di testa */
+
+#testa{
+  display: flex;
+  background-color: rgb(119, 0, 255);
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  /* altezza che sarà da togliere */
+  height: 50px;
+}
+
+#sottotesta{
+  background-color: aquamarine;
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  
+  /* altezza che sarà da togliere */
+  height: 500px;
+}
+
+.log{
+  width: 25%;
+  border: solid 1px black;
+  background-color: bisque;
+  justify-content: space-between;
+}
+
+#links{
+  width: 50%;
+  align-self: center;
+
+}
+
+
+/* qui iniziano gli elementi del main */
+
+.box{
+   display: flex;
+  background-color: rgb(168, 168, 167);
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  /* altezza che sarà da togliere */
+  height: 500px;
+}
+
+.box-img{
+  background-color: red;
+  width: 60%;
+   border: solid 1px black;
+   justify-self: flex-start;
+
+}
+
+.box-txt{background-color: yellow;
+  width: 40%;
+  border: solid 1px black;
+  justify-self: flex-end;
+
+
+}
+

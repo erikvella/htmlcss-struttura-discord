@@ -9,7 +9,12 @@
   border: solid 1px black;
 }
 
+
 /* qui iniziano gli elementi di testa */
+
+header{
+  background-color: lightpink;
+}
 
 #testa{
   display: flex;
@@ -18,6 +23,7 @@
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 20px;
+  justify-content: space-between;
 
   /* altezza che sarà da togliere */
   height: 50px;
@@ -25,26 +31,57 @@
 
 #sottotesta{
   background-color: aquamarine;
-  width: 70%;
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
   
   /* altezza che sarà da togliere */
   height: 500px;
+}
+
+#sotto{
+  background-color: rgb(5, 69, 48);
+  width: 60%;
+  max-width: 1200px;
+  height: 400px;
+
 }
 
 .log{
   width: 25%;
   border: solid 1px black;
   background-color: bisque;
-  justify-content: space-between;
 }
+.login{
+  width: 25%;
+  border: solid 1px black;
+  background-color: bisque;
+  text-align: right;
+}
+
 
 #links{
   width: 50%;
-  align-self: center;
+  text-align: center;
+  }
 
+.container{
+  width: 100%;
+  height: 540px;
+  background-color: rgb(156, 247, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-grey{
+  background-color:lightgrey ;
+}
+.back-white{
+  background-color: white;
 }
 
 
@@ -52,11 +89,11 @@
 
 .box{
    display: flex;
-  background-color: rgb(168, 168, 167);
+  background-color:white;
   width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  
+ 
+  
   /* altezza che sarà da togliere */
   height: 500px;
 }
@@ -69,11 +106,19 @@
 
 }
 
-.box-txt{background-color: yellow;
+.box-txt{
+  background-color: yellow;
   width: 40%;
   border: solid 1px black;
-  justify-self: flex-end;
+  }
 
+.box-b{
+ display: flex;
+  background-color:white;
+  width: 80%;
+  
+  
+  /* altezza che sarà da togliere */
+  height: 500px;
 
 }
-

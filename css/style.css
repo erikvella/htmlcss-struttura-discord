@@ -84,12 +84,16 @@ header{
   background-color: white;
 }
 
+.back-black{
+  background-color: rgb(30, 30, 30);
+}
+
 
 /* qui iniziano gli elementi del main */
 
 .box{
    display: flex;
-  background-color:white;
+  background-color:rgb(10, 59, 18);
   width: 80%;
   
  
@@ -116,9 +120,21 @@ header{
  display: flex;
   background-color:white;
   width: 80%;
-  
-  
-  /* altezza che sarà da togliere */
+ /* altezza che sarà da togliere */
   height: 500px;
-
 }
+
+/* qui vado a modificare il box con più colonne */
+
+.colonna-grande{
+  background-color: salmon;
+  width: 33%;
+  border: solid 1px rgb(43, 43, 43);
+}
+
+.colonnina{
+  background-color: aqua;
+  border: solid 1px white;
+  width: 258px;
+}
+
